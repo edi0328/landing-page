@@ -72,7 +72,7 @@ button {
 }
 
 h2 {
-    font-size: 24px;
+    font-size: 36px;
     font-weight: 700;
 }
 
@@ -87,7 +87,7 @@ h2 {
 .container {
     width: 100vw;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: flex-end;
     gap: 40px;
 }
@@ -117,22 +117,19 @@ img {
     background-color: #E5E7EB;
     justify-content: center;
     align-items: center;
-    padding: 100px 200px;
+    padding: 100px 200px 0;
 }
 
 .quote {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
-    width: 600px;
+    flex: auto;
 }
 
 .quoter {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    flex:auto;
     font-size: 24px;
     font-weight: bold;
-    width: 600px;
-    margin: 64px 0;
+    margin: 64px 0 64px auto;
 }
