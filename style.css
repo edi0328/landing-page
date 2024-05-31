@@ -37,3 +37,25 @@ ul {
     align-items: center;
 }
 
+.intro {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    color: white;
+    font-size: 48px;
+}
+
+p {
+    color: lightgrey;
+}
+
+button {
+    color: white;
+    background-color: #3882F6;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 8px 24px;
+}
