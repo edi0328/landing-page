@@ -71,11 +71,6 @@ button {
     padding: 8px 24px;
 }
 
-img {
-    width: 400px;
-    height: auto;
-}
-
 h2 {
     font-size: 24px;
     font-weight: 700;
@@ -92,6 +87,15 @@ h2 {
 .container {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     gap: 40px;
+}
+
+img {
+    width: 200px;
+    height: auto
+}
+
+.main {
+    width: 400px;
 }
