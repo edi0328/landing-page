@@ -1,0 +1,33 @@
+body {
+    font-family: Hero, "Times New Roman", sans-serif;
+}
+
+.logo {
+    font-weight: 1000;
+    font-size: 24px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: lightgrey;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.header {
+    width: 100vw;
+    padding: 16px 48px;
+    box-sizing: border-box;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+}
