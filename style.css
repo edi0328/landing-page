@@ -41,6 +41,7 @@ ul {
 .intro {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .about {
@@ -73,4 +74,24 @@ button {
 img {
     width: 400px;
     height: auto;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.info {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
 }
