@@ -69,6 +69,7 @@ button {
     font-size: 16px;
     border-radius: 10px;
     padding: 8px 24px;
+    width: 111px;
 }
 
 h2 {
@@ -84,7 +85,7 @@ h2 {
     gap: 64px;
 }
 
-.container {
+.medias {
     width: 100vw;
     display: flex;
     justify-content: space-evenly;
@@ -132,4 +133,54 @@ img {
     font-size: 24px;
     font-weight: bold;
     margin: 64px 0 64px auto;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100vw;
+    padding: 48px 128px;
+}
+
+.box {
+    padding: 32px 128px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 32px 128px;
+    border-radius: 5px;
+    gap: 128px;
+}
+
+.signup {
+    width: 350px;
+}
+
+h3 {
+    color: white;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+}
+
+.bordered {
+    border-color: white;
+}
+
+.marginless {
+    margin: 0px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    width: 100vw;
+    height: 72px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
